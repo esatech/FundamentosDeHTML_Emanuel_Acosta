@@ -55,3 +55,34 @@ ul li
 {
   list-style-type: lower-latin;
 }
+a [href^='http://']:visited{
+  color: red;
+}
+a:hover{
+  color: green;
+}
+h2:first-child{
+  text-decoration: underline;
+}
+input:focus{
+  width: 160px;
+  height: 140px;
+}
+p::first-letter{
+  text-transform: capitalize;
+}
+p::first-line{
+  font-size: 32px
+}
+p::selection{
+  color: red;
+}
+#idiomas>ol>li:first-child::after{
+  content: ' " - after"'
+}
+#idiomas>ol>li:last-child::before{
+  content: '"before - " '
+}
+#idiomas>ol>li:nth-child(2)::after{
+  content: '"hijo #2"'
+}
