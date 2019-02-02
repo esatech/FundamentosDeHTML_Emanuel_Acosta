@@ -8,7 +8,6 @@ footer
 }
 img
 {
-  border-radius: 60px;
 }
 #indice
 {
@@ -32,7 +31,27 @@ img
 {
   color: red;
 }
-a[href^="#"]
+a[href^='html']
 {
   color: red;
+}
+img[src$='.jpg']
+{
+  border-radius: 50px;
+  border: 1px solid black;
+}
+*{
+  margin: 1vh 1vw;
+}
+h1 + h2
+{
+  text-decoration: underline;
+}
+article> p
+{
+  text-decoration: underline;
+}
+ul li
+{
+  list-style-type: lower-latin;
 }
